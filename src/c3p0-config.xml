@@ -1,0 +1,15 @@
+<c3p0-config>
+  
+
+  <!-- This app is massive! -->
+  <named-config name="hello"> 
+  	<property name="user">root</property>
+    <property name="password">123456</property>
+    <property name="driverClass">com.mysql.jdbc.Driver</property>
+    <property name="jdbcUrl">jdbc:mysql:///ahq</property>
+    <property name="acquireIncrement">5</property>
+    <property name="initialPoolSize">10</property>
+    <property name="minPoolSize">5</property>
+    <property name="maxPoolSize">100</property>   
+  </named-config>
+</c3p0-config>
